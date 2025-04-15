@@ -1,6 +1,10 @@
 #### SUJET RGPD
 
-## Etapes :
+# 🤖 Assistant RGPD avec Azure & RAG
+
+Ce projet est une application d’intelligence artificielle permettant de poser des questions sur un document RGPD de format PDF, et d’obtenir des réponses fiables en langage naturel.  
+Elle utilise une architecture RAG (Retrieval-Augmented Generation) combinée avec Azure OpenAI et Azure Document Intelligence.
+
 
 ## Architecture RAG : 
 
@@ -11,6 +15,7 @@
 5. Recherche sémantique à partir d’une question
 6. Génération de la réponse avec GPT
 7. Affichage dans Streamlit
+   
 ## Configuration sur Azure 
 Document Intelligence ✔️
 Azure OpenAI ✔️
