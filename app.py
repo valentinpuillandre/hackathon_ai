@@ -73,31 +73,9 @@ Répondez en vous basant sur le contexte fourni. Si le contexte ne contient pas 
         return f"Erreur lors de l'appel à l'API : {e}"
 
 # Interface Streamlit
-st.title("Application GPT sur Azure")
+st.title("Code de la route GPT")
 st.write("Entrez votre texte ci-dessous pour obtenir une réponse du modèle GPT.")
 
-# Choix du thème
-theme = st.selectbox("Choisissez le thème de couleur:", ["White", "Dark"])
-
-# Appliquer un style simple selon le thème
-if theme == "Dark":
-    st.markdown(
-        """
-        <style>
-        body { background-color: #0e1117; color: white; }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
-else:
-    st.markdown(
-        """
-        <style>
-        body { background-color: white; color: black; }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
 
 # Saisie utilisateur
 user_input = st.text_area("Votre texte:", "")
