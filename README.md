@@ -93,5 +93,5 @@ Si vous rencontrez des erreurs :
 1. Vérifiez que l'environnement virtuel est activé
 2. Confirmez que toutes les dépendances sont installées
 3. Vérifiez que votre fichier `.env` est correctement configuré
-4. Assurez-vous que vos clés Azure OpenAI sont valides
+4. Assurez-vous que vos clés Azure OpenAI sont valides.
 
