@@ -41,6 +41,9 @@ pip install -r requirements.txt
 AZURE_OPENAI_API_KEY=votre_clé_api
 AZURE_OPENAI_ENDPOINT=votre_endpoint
 AZURE_OPENAI_API_VERSION=2024-02-15-preview
+SEARCH_ENDPOINT = url
+SEARCH_KEY = key_search
+SEARCH_INDEX_NAME = index_name
 ```
 
 ## Utilisation
