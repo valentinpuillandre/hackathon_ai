@@ -16,6 +16,14 @@ Elle utilise une architecture RAG (Retrieval-Augmented Generation) combinée ave
 6. Génération de la réponse avec GPT
 7. Affichage dans Streamlit
    
+## Technologies utilisées
+
+**Streamlit** : Interface utilisateur                 
+**Azure Document Intelligence** : Extraction de texte depuis PDF 
+**Azure OpenAI** : Embeddings + génération de texte  
+** Azure Search : Base vectorielle pour la recherche
+**Python** : Backend général           
+   
 ## Configuration sur Azure 
 Document Intelligence ✔️
 Azure OpenAI ✔️
