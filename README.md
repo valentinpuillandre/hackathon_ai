@@ -11,3 +11,6 @@
 5. Recherche sémantique à partir d’une question
 6. Génération de la réponse avec GPT
 7. Affichage dans Streamlit
+## Configuration sur Azure 
+Document Intelligence ✔️
+Azure OpenAI ✔️
