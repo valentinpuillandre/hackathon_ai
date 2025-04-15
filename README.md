@@ -1,6 +1,6 @@
-# Assistant RGPD - Application Streamlit
+# Assistant Code de la route - Application Streamlit
 
-Cette application est un assistant RGPD développé avec Streamlit et Azure OpenAI. Elle permet d'obtenir des réponses à vos questions concernant le RGPD (Règlement Général sur la Protection des Données).
+Cette application est un assistant Code de la route développé avec Streamlit et Azure OpenAI. Elle permet d'obtenir des réponses à vos questions concernant le code de la route.
 
 ## Prérequis
 
@@ -61,14 +61,14 @@ streamlit run app.py
 
 4. Utilisez l'interface pour :
    - Choisir un thème (clair ou sombre)
-   - Poser vos questions sur le RGPD
+   - Poser vos questions sur le code de la route
    - Obtenir des réponses détaillées
 
 ## Fonctionnalités
 
 - Interface utilisateur intuitive avec Streamlit
 - Support des thèmes clair/sombre
-- Réponses détaillées sur le RGPD
+- Réponses détaillées sur le code de la route
 - Intégration avec Azure OpenAI pour des réponses précises
 
 ## Structure du Projet
